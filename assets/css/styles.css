@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
-  --primary-colour: #047aed;
+  --primary-colour: #deb887;
+  --primary-font: #2222ss;
 }
 
 * {
@@ -12,7 +13,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  color: #333;
+  color: var(--primary-font);
   line-height: 1.6;
 }
 
@@ -52,7 +53,7 @@ img {
 }
 
 .navbar a {
-  color: #fff;
+  color:var(--primary-font);
   padding: 10px;
   margin: 0 5px;
 }
@@ -69,7 +70,7 @@ img {
 .showcase {
   height: 400px;
   background-color: var(--primary-colour);
-  color: white;
+  color:var(--primary-font);
   position: relative;
 }
 
@@ -133,58 +134,16 @@ img {
   padding-top: 100px;
 }
 
-/* Utilities */
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
 }
 
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
+.stats .grid h3 {
+  font-size: 35px;
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.grid-3 {
-  grid-template-columns: repeat(3, 1fr);
-}
-
-.card {
-  background-color: white;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-}
-
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  cursor: pointer;
-  background-color: var(--primary-colour);
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-}
-
-.btn-outline {
-  background-color: transparent;
-  border: 1px #fff solid;
-}
-
-.btn:hover {
-  transform: scale(0.98);
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
 }

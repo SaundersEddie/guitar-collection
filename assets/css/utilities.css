@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
-  --primary-colour: #deb8a7;
-  --primary-font: #0300aa;
+  --primary-colour: #b5651d;
+  --primary-font: #333333;
 }
 
 .container {
@@ -127,4 +127,8 @@
 }
 .p-5 {
   padding: 4rem;
+}
+
+.bg-footer {
+  background-color: var(--primary-colour);
 }

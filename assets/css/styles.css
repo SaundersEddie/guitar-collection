@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
   --primary-colour: #deb887;
   --primary-font: #2222ss;
-}
+} */
 
 * {
   box-sizing: border-box;
@@ -53,7 +53,7 @@ img {
 }
 
 .navbar a {
-  color:var(--primary-font);
+  color: var(--primary-font);
   padding: 10px;
   margin: 0 5px;
 }
@@ -70,7 +70,7 @@ img {
 .showcase {
   height: 400px;
   background-color: var(--primary-colour);
-  color:var(--primary-font);
+  color: var(--primary-font);
   position: relative;
 }
 

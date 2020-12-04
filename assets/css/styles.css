@@ -171,6 +171,31 @@ img {
   border-bottom: 2px #fff solid;
 }
 
+/* Instruments */
+.instruments .flex {
+  flex-wrap: wrap;
+}
+
+.instruments img {
+  width: 10%;
+  height: 10%;
+}
+
+.instruments .card {
+  text-align: center;
+  margin: 18px 10px 40px;
+  transition: transform 0.2s ease-in;
+}
+
+.instruments .card h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.instruments .card:hover {
+  transform: translateY(-15px);
+}
+
 /* Media Queries */
 
 /* Tablets and under */

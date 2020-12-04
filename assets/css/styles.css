@@ -1,3 +1,7 @@
+/* General Stylesheet - EXS 3rd December 2020 
+  For the most part this will cover all pages on this site, for larger projects it maybe beneficial to break it down further */
+
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -116,16 +120,12 @@ img {
   right: 0;
   left: 0;
   background: white;
-  transform: skewY(-10deg);
-  -webkit-transform: skewY(-3deg);
-  -moz-transform: skewY(-3deg);
-  -ms-transform: skewY(-3deg);
+  transform: skewY(-3deg);
+  -webkit-transform: skewY(-2deg);
+  -moz-transform: skewY(-2deg);
+  -ms-transform: skewY(-2deg);
 }
 
-/* Footer */
-.footer .social a {
-  margin: 0 10px;
-}
 /* Stats */
 .stats {
   padding-top: 100px;
@@ -143,4 +143,31 @@ img {
 .stats .grid p {
   font-size: 20px;
   font-weight: bold;
+}
+
+/* Footer */
+.footer .social a {
+  margin: 0 10px;
+}
+
+.bg-footer {
+  background-color: var(--primary-colour);
+}
+
+.footer .flex {
+  justify-content: space-between;
+}
+
+.footer ul {
+  display: flex;
+}
+
+.footer a {
+  color: var(--primary-font);
+  padding: 10px;
+  margin: 0 5px;
+}
+
+.footer a:hover {
+  border-bottom: 2px #fff solid;
 }

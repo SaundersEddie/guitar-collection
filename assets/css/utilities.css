@@ -1,18 +1,16 @@
-/* Utilities */
+/* Utilities EXS 3rd December 2020
+  Took this idea from Brad Traversey keep my site wide styling in one place, this also gives me the opportunity
+  to slowly build out a framework thats easy to port around to other projects */
+
+/* Imports */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+/* Variables */
 :root {
   --primary-colour: #b5651d;
   --primary-font: #333333;
 }
-
-.container {
-  max-width: 1100px;
-  margin: 0 auto;
-  overflow: auto;
-  padding: 0 40px;
-}
-
+/* Flex */
 .flex {
   display: flex;
   justify-content: center;
@@ -20,6 +18,15 @@
   height: 100%;
 }
 
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+
+/* Grid */
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -33,6 +40,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+/* Cards */
 .card {
   background-color: white;
   color: #333;
@@ -42,6 +50,7 @@
   margin: 10px;
 }
 
+/* Buttons */
 .btn {
   display: inline-block;
   padding: 10px 30px;
@@ -127,8 +136,4 @@
 }
 .p-5 {
   padding: 4rem;
-}
-
-.bg-footer {
-  background-color: var(--primary-colour);
 }

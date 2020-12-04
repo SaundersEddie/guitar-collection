@@ -26,6 +26,16 @@
   padding: 0 40px;
 }
 
+/* Cards */
+.card {
+  background-color: white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 10px;
+}
+
 /* Grid */
 .grid {
   display: grid;
@@ -40,15 +50,7 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
-/* Cards */
-.card {
-  background-color: white;
-  color: #333;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
-  padding: 20px;
-  margin: 10px;
-}
+
 
 /* Buttons */
 .btn {

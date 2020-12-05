@@ -177,24 +177,25 @@ img {
   flex-wrap: wrap;
 }
 
-.instruments img {
-  width: 10%;
-  height: 10%;
-}
-
 .instruments .card {
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
 }
+/* .instruments img {
+  width: 100%;
+  height: 100%;
+} */
+
+
 
 .instruments .card h4 {
-  font-size: 20px;
+  font-size: 18px;
   margin-bottom: 10px;
 }
 
 .instruments .card:hover {
-  transform: translateY(-15px);
+  transform: translateY(-10px);
 }
 
 /* Media Queries */

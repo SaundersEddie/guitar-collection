@@ -1,11 +1,11 @@
 # Eddies Music Page
 
 ## Table of Contents
-    - About
-    - Code
-    - Access
-    - Future Plans
-    - Credits
+- About
+- Code
+- Access
+- Future Plans
+- Credits
 
 ## About
 The goal for this project was to make a simple reactive web page based to show off my music hardware, and have a contact page.

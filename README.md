@@ -15,6 +15,7 @@ This was coded with CSS, HTML and uses a one import from Font Awesome
 
 ## Access
 This page is hosted on Netlify and can be seen by clicking this link:  
+https://awesome-hypatia-cfdcf6.netlify.app/index.html
 
 ## Future Plans
 Future plans are to include a modal when a user clicks on one of the instrument images, and maybe link in with Soundcloud or similar music hosting service.
